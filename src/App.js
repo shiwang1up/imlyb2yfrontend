@@ -1,13 +1,10 @@
 import React from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Navigation from "./components/Navigation/Navigation";
-import AddProduct from "./components/Addproduct/AddProduct";
-import ProductPage from "./components/ProductsPage/ProductPage";
 import "./index.css";
 import User from "./components/User/User";
 import Dashboard from "./components/Dashboard/Dashboard";
 import Login from "./components/Login/Login";
-import AddEditProduct from "./components/AddEditProduct/AddEditProduct";
 import Orders from "./components/Orders/Orders";
 import AddOrders from "./components/Orders/AddOrders";
 import Stores from "./components/Stores/Stores";
@@ -25,23 +22,17 @@ import RoleUser from "./components/UserRoles/UserRole";
 import { PaymentProvider } from "./Context/paymentContext";
 import Paymentform from "./components/Payments/Paymentform";
 import AddCustomers from "./components/Customer/AddCustomers";
-import UpdateOrder from "./components/Orders/UpdateOrder";
 import Returns from "./components/Returns/Returns";
 import Production from "./components/Production/Production";
 import { LoadingProvider } from "./Context/LoadingContext";
 import { OrderProvider } from "./Context/orderContext";
 import RoleUserAddForm from "./components/UserRoles/AddRoleForm";
 import RoleUserEditForm from "./components/UserRoles/EditRoleForm";
-import SuccessPopup from "./components/SuccessPopup";
 import { IdProvider } from "./Context/IdContext";
 import DataProvider from "./Context/DataContext";
-import Testing from "./components/Testing/Testing";
 import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
-import { useAuth } from "./Context/AuthContext";
 import Tasks from "./components/Tasks/Tasks";
-import PlusToXButton from "./components/Testing/Temp";
 import { UpdatedStatusOrderProvider } from "./Context/UpdatedOrder";
-import Test from "./components/Testing/Testing";
 import Temp from "./components/Testing/Temp";
 import Feedback from "./components/FeedBack/feeedbackForm";
 import Restricted from "./components/Unauth/Restricted";
@@ -50,7 +41,6 @@ import { PERMISSIONS } from "./Constants/permissions";
 function App() {
   const location = useLocation();
   const showNavigation = location.pathname !== "/";
-  const { userRole } = useAuth();
 
   return (
     <div className="App flex flex-col min-h-screen">

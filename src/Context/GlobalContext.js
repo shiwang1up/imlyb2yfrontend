@@ -1,5 +1,4 @@
-import React, { createContext, useState, useEffect } from 'react';
-import { GETALLCUSTOMERS_API } from '../../src/Constants/apiRoutes';
+import React, { createContext,  } from 'react';
 
 const GlobalContext = createContext();
 

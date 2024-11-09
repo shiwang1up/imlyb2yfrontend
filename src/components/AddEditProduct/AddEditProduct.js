@@ -67,15 +67,7 @@ function AddEditProduct() {
     setProduct(initialProduct);
   }, [initialProduct]);
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setProduct({ ...product, [name]: value });
-  };
 
-  const handleSave = () => {
-    console.log('Product saved:', product);
-    navigate('/products');
-  };
 
   const handleCancel = () => {
     navigate('/products');
