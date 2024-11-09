@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ce820844.css",
+    "main.js": "/static/js/main.e5df7974.js",
+    "static/js/239.6a0e0583.chunk.js": "/static/js/239.6a0e0583.chunk.js",
+    "static/js/213.120c9a8c.chunk.js": "/static/js/213.120c9a8c.chunk.js",
+    "static/js/455.81a9c115.chunk.js": "/static/js/455.81a9c115.chunk.js",
+    "static/media/Tshrit3.png": "/static/media/Tshrit3.c19cd80a1c5f4b1bfa68.png",
+    "static/media/note.png": "/static/media/note.66cac6f3dac9b9f31009.png",
+    "static/media/imly-two.png": "/static/media/imly-two.e5a52d47f5dd2b5f4171.png",
+    "static/media/jeans.png": "/static/media/jeans.913e139333e11fdf852b.png",
+    "static/media/denimjacket.png": "/static/media/denimjacket.c548e17ab1cc17d26fbc.png",
+    "static/media/polo.png": "/static/media/polo.1175a46b7e9e9aed6cb0.png",
+    "static/media/imly-logo-new.jpg": "/static/media/imly-logo-new.3288bb4810a0af57701d.jpg",
+    "static/media/Sweatshirt.png": "/static/media/Sweatshirt.846579dfa4fa18a93541.png",
+    "static/media/Tshrit2.jpg": "/static/media/Tshrit2.0c8fb731595832887d07.jpg",
+    "static/media/credit-card.svg": "/static/media/credit-card.315b218d780b8477ac66b116c3ca9d48.svg",
+    "static/media/debit-card.svg": "/static/media/debit-card.e9c85d4f004a56af3b5053f61a4a0da3.svg",
+    "static/media/similar product.jpg": "/static/media/similar product.0892891eb056c8c7401c.jpg",
+    "static/media/Hoodie.png": "/static/media/Hoodie.c0599b4acf82689c95d0.png",
+    "static/media/UPI-Color.svg": "/static/media/UPI-Color.221471d884b7440bd0cf340e55a1dee6.svg",
+    "static/media/amazon-pay.svg": "/static/media/amazon-pay.6329699df2b3c724c7e64df6a4263d7a.svg",
+    "static/media/paypal.svg": "/static/media/paypal.6e0198d53702150a9db78262c962c65d.svg",
+    "index.html": "/index.html",
+    "main.ce820844.css.map": "/static/css/main.ce820844.css.map",
+    "main.e5df7974.js.map": "/static/js/main.e5df7974.js.map",
+    "239.6a0e0583.chunk.js.map": "/static/js/239.6a0e0583.chunk.js.map",
+    "213.120c9a8c.chunk.js.map": "/static/js/213.120c9a8c.chunk.js.map",
+    "455.81a9c115.chunk.js.map": "/static/js/455.81a9c115.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce820844.css",
+    "static/js/main.e5df7974.js"
+  ]
+}
