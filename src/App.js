@@ -59,7 +59,6 @@ function App() {
                           <IdProvider>
                             <Routes>
                               <Route path="/" element={<Login />} />
-                              <Route path="/pop" element={<FilterBar />} />
 
                               <Route
                                 path="/user"
