@@ -37,6 +37,7 @@ import Temp from "./components/Testing/Temp";
 import Feedback from "./components/FeedBack/feeedbackForm";
 import Restricted from "./components/Unauth/Restricted";
 import { PERMISSIONS } from "./Constants/permissions";
+import FilterBar from "./components/Orders/FilterBar";
 
 function App() {
   const location = useLocation();
@@ -58,6 +59,7 @@ function App() {
                           <IdProvider>
                             <Routes>
                               <Route path="/" element={<Login />} />
+                              <Route path="/pop" element={<FilterBar />} />
 
                               <Route
                                 path="/user"
@@ -288,14 +290,6 @@ function App() {
                                 }
                               />
                               {/* Testing route */}
-                              <Route
-                                path="/pop"
-                                element={
-                                  <ProtectedRoute allowedRoles={[1]}>
-                                    <Temp />
-                                  </ProtectedRoute>
-                                }
-                              />
                               <Route
                                 path="/feedback"
                                 element={

@@ -88,21 +88,7 @@ const FilterBar = ({ selectedFilter, onFilterChange }) => {
       >
         All
       </Button>
-      <Button
-        disableRipple
-        variant="contained"
-        startIcon={<PendingActionsIcon />}
-        style={{
-          ...buttonStyles,
-          textTransform: "capitalize",
-          backgroundColor: selectedFilter === "Pending" ? "#15803d" : "#d5f5e3",
-          color: selectedFilter === "Pending" ? "white" : "#186a3b",
-          boxShadow: "0 0 0 1px #186a3b inset",
-        }}
-        onClick={() => onFilterChange("Pending")}
-      >
-        Pending
-      </Button>
+
       <Button
         disableRipple
         variant="contained"
@@ -127,16 +113,16 @@ const FilterBar = ({ selectedFilter, onFilterChange }) => {
           ...buttonStyles,
           textTransform: "capitalize",
           backgroundColor:
-            selectedFilter === "Initial Design" ? "#86198f" : "#e8daef",
-          color: selectedFilter === "Initial Design" ? "white" : "#86198f",
-          boxShadow: "0 0 0 1px #4a235a inset",
+            selectedFilter === "Initial Design" ? "#ff9c68" : "#ffdfce",
+          color: selectedFilter === "Initial Design" ? "white" : "#bc4000",
+          boxShadow: "0 0 0 1px #bc4000 inset",
         }}
         onClick={() => onFilterChange("Initial Design")}
       >
         Initial Design
       </Button>
 
-      {/* More Button with Dropdown */}
+
       {/* More Button with Dropdown */}
       <Button
         disableRipple
@@ -147,7 +133,7 @@ const FilterBar = ({ selectedFilter, onFilterChange }) => {
           ...buttonStyles,
           textTransform: "capitalize",
           color: "#92400e",
-          boxShadow: "0 0 0 1px #92400e inset",
+          boxShadow: "0 0 0 1px #8a5a44 inset",
           backgroundColor:
             selectedFilter !== "All" &&
             selectedFilter !== "Pending" &&
@@ -155,7 +141,7 @@ const FilterBar = ({ selectedFilter, onFilterChange }) => {
             selectedFilter !== "Initial Design" &&
             selectedFilter !== "2" &&
             selectedFilter !== "1"
-              ? "#92400e"
+              ? "#9d6b53"
               : "#fef3c7",
           color:
             selectedFilter !== "All" &&
@@ -165,7 +151,7 @@ const FilterBar = ({ selectedFilter, onFilterChange }) => {
             selectedFilter !== "2" &&
             selectedFilter !== "1"
               ? "white"
-              : "#92400e",
+              : "#8a5a44",
         }}
       >
         More

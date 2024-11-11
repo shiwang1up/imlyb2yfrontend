@@ -12,7 +12,7 @@ import {
 } from "@mui/material";
 import { FaPlus } from "react-icons/fa";
 import * as XLSX from "xlsx";
-import { AiOutlineEdit, AiOutlineDelete } from "react-icons/ai";
+import { AiOutlineEdit,  } from "react-icons/ai";
 import { IoIosSearch } from "react-icons/io";
 import { FaTable } from "react-icons/fa";
 import axios from "axios";
