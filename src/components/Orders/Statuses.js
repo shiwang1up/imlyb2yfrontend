@@ -9,7 +9,7 @@ const StatusBadge = ({ status }) => {
       : status === "Processing"
       ? "bg-orange-500 text-white ring-orange-500/30" // Orange background and white text for Processing
       : status === "Initial Design"
-      ? "bg-[#ffac81] text-white ring-[#ffac81]" // Indigo background and white text for Initial Design
+      ? "bg-[#ff9c68] text-white ring-[#ff9c68]" // Indigo background and white text for Initial Design
       : status === "Initial Measurements"
       ? "bg-custom-LavenderBlush text-white ring-custom-LavenderBlush" // Indigo background and white text for Initial Measurement
       : status.startsWith("Revised Design")
@@ -19,7 +19,7 @@ const StatusBadge = ({ status }) => {
       : status === "SignUp Document"
       ? "bg-gray-500 text-white ring-gray-500/30" // Gray background and white text for SignUp Document
       : status.startsWith("Production")
-      ? "bg-[#c8b6ff] text-white ring-[#b298dc]" // Gray background and white text for Production
+      ? "bg-[#a283ff] text-white ring-[#a283ff]" // Gray background and white text for Production
       : status === "PDI"
       ? "bg-pink-500 text-white ring-pink-500/30" // Pink background and white text for PDI
       : status === "Dispatch"
